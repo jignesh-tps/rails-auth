@@ -52,10 +52,8 @@ test:
 
 production:
   adapter:  postgresql
-  host:     localhost
   encoding: unicode
   database: rails-auth_production
   pool:     5
-  username: rails-auth
-  password:
-  template: template0
+  username: learn-rails
+  password: learn-rails
