@@ -19,7 +19,7 @@ development:
   database: rails-auth_development
   pool:     5
   username: rails-auth
-  password:
+  password: rails-auth
   template: template0
 
   # Connect on a TCP socket. Omitted by default since the client uses a

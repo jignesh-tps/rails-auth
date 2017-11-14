@@ -7,6 +7,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'dotenv-rails'
 group :development, :test do
   gem 'byebug'
 end
@@ -20,7 +21,7 @@ gem 'bourbon'
 gem 'devise'
 gem 'devise_invitable'
 gem 'high_voltage'
-gem 'pg'
+gem 'pg', '~> 0.20.0'
 gem 'therubyracer', :platform=>:ruby
 group :development do
   gem 'better_errors'
