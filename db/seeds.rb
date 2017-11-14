@@ -7,7 +7,3 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 user = CreateAdminService.new.call
 puts 'CREATED ADMIN USER: ' << user.email
-
-['vishal@techplusteam.com', 'nency@techplusteam.com'].each do |user|
-	User.all.create({email: user, password: 'hello123'})
-end
